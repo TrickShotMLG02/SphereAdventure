@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class DeathParticles : MonoBehaviour {
-
-	public GameObject Player;
 	AudioSource sfxExp;
 
 	void OnTriggerEnter(Collider Player) {
@@ -16,6 +14,7 @@ public class DeathParticles : MonoBehaviour {
 	exp.Play();
 	
 	Time.timeScale = 1.25f;
+	PlayerPrefs.SetFloat("GameSpeed", 1.25f);
 	Destroy(Player.gameObject);
 	StartCoroutine(Example());
 

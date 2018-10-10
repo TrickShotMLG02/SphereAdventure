@@ -9,6 +9,8 @@ public class ShopControllerNew : MonoBehaviour {
 	
 	public float Gems;
 	
+	public float Skinnumber;
+	
 	public float SkinOnePrice;
 	public float SkinOneBought = 0f;
 	public bool SkinOneSelected;
@@ -45,6 +47,9 @@ public class ShopControllerNew : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		
+		Skinnumber = PlayerPrefs.GetFloat("SkinSelected");
+		
 		
 		SkinOneBought = PlayerPrefs.GetFloat("SkinOneUnlocked");
 		SkinTwoBought = PlayerPrefs.GetFloat("SkinTwoUnlocked");
@@ -90,6 +95,20 @@ public class ShopControllerNew : MonoBehaviour {
 		}
 		
 		
+		if(Skinnumber == 1)
+		{
+			SkinOne.text = "Selected";
+		}	
+		
+		if(Skinnumber == 2)
+		{
+			SkinTwo.text = "Selected";
+		}
+			
+		if(Skinnumber == 3)
+		{
+			SkinThree.text = "Selected";
+		}
 		
 		
 		
