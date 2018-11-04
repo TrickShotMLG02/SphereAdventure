@@ -6,21 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SplashScreen.unity
+    path: Assets/Scenes/Utility/SplashScreen.unity
     guid: 3ef5de6b2b3b2e04991690bddca16980
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Menus/MainMenu.unity
     guid: 7ca4a5aa6fc18324ab3ddca8fcde20c6
+  - enabled: 1
+    path: Assets/Scenes/Menus/DeathScreen.unity
+    guid: 3e02928a4bed54741829decd98af285a
+  - enabled: 1
+    path: Assets/Scenes/Menus/ChallengeScreen.unity
+    guid: b8f54042fbd4e7a41a18fe31dff53af2
+  - enabled: 1
+    path: Assets/Scenes/Utility/RestoreData.unity
+    guid: e562fafbfb3c8504ea1a39eb70c221d0
+  - enabled: 1
+    path: Assets/Scenes/Utility/SaveData.unity
+    guid: d5c580747bc12054dbd7227feac18d3c
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: df4eccff5ba932547b7c6d06b2aee29b
   - enabled: 1
-    path: Assets/Scenes/DeathScreen.unity
-    guid: 3e02928a4bed54741829decd98af285a
+    path: Assets/Scenes/Levels/Level1.unity
+    guid: e5e17a22db498be409d69387242930cc
   - enabled: 1
-    path: Assets/Scenes/RestoreData.unity
-    guid: e562fafbfb3c8504ea1a39eb70c221d0
+    path: Assets/Scenes/Levels/Level2.unity
+    guid: 5a5dc79e23bd03f49ab16e2a42a2b1fd
   - enabled: 1
-    path: Assets/Scenes/SaveData.unity
-    guid: d5c580747bc12054dbd7227feac18d3c
+    path: Assets/Scenes/Levels/Level26.unity
+    guid: 7ce6e9587637e594281a7af4847f33f4
   m_configObjects: {}
