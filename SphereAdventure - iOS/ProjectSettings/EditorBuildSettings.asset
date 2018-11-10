@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Utility/SplashScreen.unity
     guid: 3ef5de6b2b3b2e04991690bddca16980
   - enabled: 1
-    path: Assets/Scenes/Menus/MainMenu.unity
-    guid: 7ca4a5aa6fc18324ab3ddca8fcde20c6
+    path: Assets/Scenes/Menus/MainMenu1.unity
+    guid: 2cf5726e207c640429e905bbd4528f0e
   - enabled: 1
     path: Assets/Scenes/Menus/DeathScreen.unity
     guid: 3e02928a4bed54741829decd98af285a
