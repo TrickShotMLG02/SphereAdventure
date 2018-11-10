@@ -6624,7 +6624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a50d775704e04cb9da6961ad74243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  SceneName: DeathScreen
 --- !u!114 &114237112026895308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6696,7 +6696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a50d775704e04cb9da6961ad74243, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  SceneName: DeathScreen
 --- !u!198 &198292134594120874
 ParticleSystem:
   m_ObjectHideFlags: 1

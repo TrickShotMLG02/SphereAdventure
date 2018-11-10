@@ -18,15 +18,15 @@ public class Splash : MonoBehaviour {
 	IEnumerator coroutine(){
 		transform.GetComponent<RawImage>().color = new Vector4( 1.0f, 1.0f, 1.0f, 0.0f );
 		
-		yield return new WaitForSeconds(0.1f);
+		yield return new WaitForSeconds(0.2f);
 
 		yield return StartCoroutine (FadeGUITexture(fadeTime, Fade.In));
 
 		yield return new WaitForSeconds(0.8f);
 
-		yield return StartCoroutine (FadeGUITexture(fadeTime, Fade.Out));
+		//yield return StartCoroutine (FadeGUITexture(fadeTime, Fade.Out));
 
-		yield return new WaitForSeconds(0.1f);
+		//yield return new WaitForSeconds(0.1f);
 		
 		SceneManager.LoadScene("MainMenu");
 	}
@@ -44,7 +44,7 @@ public class Splash : MonoBehaviour {
 
 		if ( fadeType == Fade.In ){
 			start = 0.0f ;
-			end = 1.0f ;
+			end = 1.2f ;
 		}else if ( fadeType == Fade.Out ){
 			start = 1.0f ;
 			end = 0.0f ;
